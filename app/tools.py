@@ -9,7 +9,7 @@ from functools import cache
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-MAX_RESULTS = 3
+MAX_RESULTS = 1
 
 
 @cache
